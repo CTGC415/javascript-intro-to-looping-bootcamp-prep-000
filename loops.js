@@ -3,7 +3,9 @@ function forLoop (array) {
     if (i === 1) {
       array[array.length + 1] = "I am 1 strange loops."
     }
-    array[array.length + 1] = "I am ${i} strange loops."
+    else {
+      array[array.length + 1] = "I am ${i} strange loops."
+    }
   }
   return array
 }
